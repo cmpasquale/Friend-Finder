@@ -142,8 +142,8 @@ var friendMatch = [
 
 
     {
-        name: 'Pryanka',
-        photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiwhbeKZtxHkQE_6Fl_DKsaWomgcctwI-C5R7n5JS2UAl2cprG0w',
+        name: 'Tormund',
+        photo: 'https://static3.srcdn.com/wordpress/wp-content/uploads/2017/08/Game-of-Thrones-Beyond-the-Wall-Tormund-Giantsbane.jpg',
         scores: [
            4,
            4,

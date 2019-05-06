@@ -9,24 +9,34 @@
   </head>
   <html>
     <body>
- 
-        <h1 id="FF"> Friend Finder</h1>
+ <style>
+   body{
+     font-family: 'Tulpen One', cursive;
+     font-size: 25px;
+     background-image: url('http://getwallpapers.com/wallpaper/full/1/2/e/277419.jpg')
+   }
+   #FF{
+     font-size: 100px;
+   }
+  </style>
+  <div class="jumbotron jumbotron-fluid" style="background-color: white; opacity: .7; text-align: center; width: 80%; margin: 10%;">
+    <div class="container">
+      <h1 id="FF"> Game of Thrones Friend Finder</h1>
         <hr>
         <h2>Answer a few basic questions. </h2>
-        <h2>Then find the friend with the greatest compatibility!</h2>
-        <br>
-  
-        <div>
-          <a href="/survey"><button type="button" class="btn btn-light"style="color: black"><h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4></button></a>
-        </div>
-  
+        <h2>Then find the character with the greatest compatibility!</h2></h1>
+      <div>
+        <a href="/survey"><button type="button" class="btn btn-light" style="color: black;
+         font-family: 'Tulpen One', cursive;  font-size: 20px; width: 100px;">
+            <h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4>
+          </button></a>
+          <div class="container">
+            <p><a href="/api/friends" style="color: black">API Friends List</a> | <a
+                href="https://github.com/tellomp/friendfinder" style="color: black">GitHub Repo</a></p>
+          </div>
       </div>
-  
-      <footer class="footer">
-        <div class="container">
-          <p><a href="/api/friends" style="color: black" >API Friends List</a> | <a href="https://github.com/tellomp/friendfinder"style="color: black">GitHub Repo</a></p>
-        </div>
-      </footer>
+    </div>
+  </div>
   
     </div>
   
